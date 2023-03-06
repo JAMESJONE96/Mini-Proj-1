@@ -20,7 +20,7 @@
             width="125" />
         </div>
         <nav>
-          <ul>
+          <ul id="MenuItems">
             <li><a href="">Home</a></li>
             <li><a href="">Products</a></li>
             <li><a href="">About</a></li>
@@ -29,6 +29,7 @@
           </ul>
         </nav>
         <img src="./images/cart.png" width="30px" height="30px">
+        <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
       </div>
       <div class="row">
         <div class="col-2">
@@ -37,7 +38,7 @@
           <a href="" class="btn">Explore now &#8594;</a>
         </div>
         <div class="col-2">
-          <img src="./images/new.png" />
+          <img src="./images/test123.png" />
         </div>
       </div>
     </div>
@@ -48,13 +49,13 @@
     <div class="small-container">
       <div class="row">
         <div class="col-3">
-          <img src="./images/categories-1.jpg" alt="T-shirts">
+          <img src="./images/jinx/reqw.jpg" alt="T-shirts">
         </div>
         <div class="col-3">
           <img src="./images/categories-2.jpg" alt="Face Masks">
         </div>
         <div class="col-3">
-          <img src="./images/categories-3.jpg" alt="Long sleeves">
+          <img src="./images/mix.jpg" alt="Long sleeves">
         </div>
       </div>
     </div>
@@ -64,17 +65,17 @@
     <h2 class="title">Featured Products</h2>
     <div class="row">
       <div class="col-4">
-        <img src="./images/jinx/1.jpg" alt="Jinx">
+        <img src="./images/jinx/21.jpg" alt="Jinx">
         <h3>Jinx</h3>
         <p>$50.00</p>
       </div>
       <div class="col-4">
-        <img src="./images/marie/1.jpg" alt="Marie">
+        <img src="./images/marie/21.jpg" alt="Marie">
         <h3>Marie</h3>
         <p>$50.00</p>
       </div>
       <div class="col-4">
-        <img src="./images/noir/1.jpg" alt="Noir">
+        <img src="./images/noir/21.jpg" alt="Noir">
         <h3>Noir</h3>
         <p>$50.00</p>
       </div>
@@ -84,7 +85,7 @@
         <p>$50.00</p>
       </div>
       <div class="col-4">
-        <img src="./images/taupe/1.jpg" alt="Taupe">
+        <img src="./images/taupe/21.jpg" alt="Taupe">
         <h3>Taupe</h3>
         <p>$50.00</p>
       </div>
@@ -227,6 +228,25 @@
       <p class="copyright">Copyright 2023 | James Arada</p>
     </div>
   </div>
+
+  <!-- -------------- js for toggle menu -------------- -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else
+      {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+
+  </script>
 
 </body>
 </html>
