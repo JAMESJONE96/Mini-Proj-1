@@ -71,7 +71,7 @@ p {
   background: radial-gradient(#fff, #7f8487);
 }
 .header .row{
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 .categories {
   margin: 70px 0;
