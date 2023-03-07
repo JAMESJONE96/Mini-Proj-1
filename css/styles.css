@@ -62,16 +62,13 @@ p {
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
-  /* transition: background 0.5s; */
+  transition: background 0.5s;
 }
 .btn:hover {
   background: cyan;
 }
 .header {
   background: radial-gradient(#fff, #7f8487);
-}
-.header .row{
-    /* margin-top: 70px; */
 }
 .categories {
   margin: 70px 0;
